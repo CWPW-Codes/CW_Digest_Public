@@ -1,0 +1,32 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.pytest_cache/
+
+# OS/editor local files
+.DS_Store
+.idea/
+.vscode/
+.claude/
+
+# Local secrets / environment files (do not commit)
+.env
+.env.*
+!.env.example
+config/google_oauth_client.json
+config/client_secret*.json
+client_secret_*.json
+*client_secret*.json
+!config/*.example.json
+
+# OAuth token caches
+token.json
+*.token.json
+gmail_token.json
+
+# Generated/private digest data
+data/ai_summary_cache.json
+data/archive_weeks.json
+data/weeks/*.json
